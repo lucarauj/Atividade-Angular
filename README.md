@@ -33,15 +33,57 @@
 
 <br>
 
-## Componentes Angular Material
+## Componentes Angular Material (app.components.ts)
 
-- Button
-- Card
-- Form field
-- Icon
-- Input
-- Menu
-- Toolbar
+- Button (API):
+```
+import {MatButtonModule} from '@angular/material/button';
+```
+
+<br>
+
+- Card (API):
+```
+import {MatCardModule} from '@angular/material/card';
+```
+
+<br>
+
+- Form field (API):
+```
+import {MatFormFieldModule} from '@angular/material/form-field';
+```
+
+<br>
+
+- Icon (API):
+```
+import {MatIconModule} from '@angular/material/icon';
+```
+
+<br>
+
+- Input (API):
+```
+import {MatInputModule} from '@angular/material/input';
+```
+
+<br>
+
+- Menu (API):
+```
+import {MatMenuModule} from '@angular/material/menu';
+```
+
+<br>
+
+- Toolbar (API):
+```
+import {MatToolbarModule} from '@angular/material/toolbar';
+```
+
+<br>
+
 
 
 
