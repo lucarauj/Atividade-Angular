@@ -1,27 +1,52 @@
-# AtividadeAngular
+# Atividade Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.6.
+## Criando projeto
 
-## Development server
+- ng new atividade-angular
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<br>
 
-## Code scaffolding
+## Instalando Angular Material
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- ng add @angular/material
 
-## Build
+<br>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Instalando bootstrap
 
-## Running unit tests
+- npm install bootstrap
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- angular.json:
 
-## Running end-to-end tests
+```
+"styles": [
+	"@angular/material/prebuilt-themes/indigo-pink.css",
+	"node_modules/bootstrap/dist/css/bootstrap.css",
+	"src/styles.css"
+	],
+"scripts": [
+	"node_modules/bootstrap/dist/js/bootstrap.js"
+	]
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<br>
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+
+
+
+
+
+
+
+
+<br>
+
+## Aluno
+
+### Lucas Araujo
+
+<a href="https://www.linkedin.com/in/lucarauj"><img alt="lucarauj | LinkdeIN" width="40px" src="https://user-images.githubusercontent.com/43545812/144035037-0f415fc7-9f96-4517-a370-ccc6e78a714b.png" /></a>
