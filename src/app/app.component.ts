@@ -10,6 +10,11 @@ import {MatInputModule} from '@angular/material/input';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatToolbarModule} from '@angular/material/toolbar';
 
+import {InicioComponent} from './inicio/inicio.component'
+import {LoginComponent} from './login/login.component'
+import {MenuComponent} from './menu/menu.component'
+import {RodapeComponent} from './rodape/rodape.component'
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -22,7 +27,11 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatIconModule,
     MatInputModule,
     MatMenuModule,
-    MatToolbarModule
+    MatToolbarModule,
+    InicioComponent,
+    LoginComponent,
+    MenuComponent,
+    RodapeComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

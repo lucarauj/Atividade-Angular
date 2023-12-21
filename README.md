@@ -35,6 +35,8 @@
 
 ## Componentes Angular Material (app.components.ts)
 
+<br>
+
 - Button (API):
 ```
 import {MatButtonModule} from '@angular/material/button';
@@ -84,7 +86,29 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 
 <br>
 
+## Criando e importando componentes
 
+<br>
+
+- ng generate component inicio
+
+<br>
+
+- app.component.ts:
+
+```
+import {InicioComponent} from './inicio/inicio.component'
+
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [
+    InicioComponent,
+...
+```
+
+<br>
+	
 
 
 
