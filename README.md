@@ -1,5 +1,7 @@
 # Atividade Angular
 
+<br>
+
 ## Criando projeto
 
 - ng new atividade-angular
@@ -31,6 +33,15 @@
 
 <br>
 
+## Componentes Angular Material
+
+- Button
+- Card
+- Form field
+- Icon
+- Input
+- Menu
+- Toolbar
 
 
 
