@@ -108,6 +108,24 @@ import {InicioComponent} from './inicio/inicio.component'
 ```
 
 <br>
+
+## Importando Angular Material nos componentes
+
+<br>
+
+- inicio.component.ts:
+
+```
+import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
+import {MatToolbarModule} from '@angular/material/toolbar';
+
+@Component({
+  imports: [MatToolbarModule, MatButtonModule, MatIconModule],
+...
+```
+
+<br>
 	
 
 
