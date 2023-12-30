@@ -113,19 +113,36 @@ import {InicioComponent} from './inicio/inicio.component'
 
 <br>
 
-- inicio.component.ts:
+- "nome-do-componente".component.ts:
 
 ```
-import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
-import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatCardModule} from '@angular/material/card';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatIconModule} from '@angular/material/icon';
+import {MatInputModule} from '@angular/material/input';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatToolbarModule} from '@angular/material/toolbar'
+import {MatGridListModule} from '@angular/material/grid-list';
 
 @Component({
-  imports: [MatToolbarModule, MatButtonModule, MatIconModule],
+  imports: [
+    MatButtonModule,
+    MatCardModule,
+    MatFormFieldModule,
+    MatIconModule,
+    MatInputModule,
+    MatMenuModule,
+    MatToolbarModule,
+    MatGridListModule
+  ],
 ...
 ```
 
 <br>
+
+https://www.youtube.com/watch?v=LcYroNQNyIA&list=WL&index=4
+20:00
 	
 
 
