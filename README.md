@@ -120,8 +120,6 @@ import { AppComponent } from './app.component';'
 ```
 
 <br>
-
-https://www.youtube.com/watch?v=LcYroNQNyIA&list=WL&index=4
 	
 <br>
 
