@@ -86,6 +86,21 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 
 <br>
 
+- app.modules.ts:
+
+```
+import {MatButtonModule} from '@angular/material/button';
+
+@NgModule({
+	declarations: [],
+	imports: [
+	    BrowserModule,
+	    AppRoutingModule,
+	    MatButtonModule, ...
+```
+
+<br>
+
 ## Criando e importando componentes
 
 <br>
@@ -94,67 +109,20 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 
 <br>
 
-- app.component.ts:
+- app.module.ts:
 
 ```
-import {InicioComponent} from './inicio/inicio.component'
+import { AppComponent } from './app.component';'
 
-@Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [
-    InicioComponent,
-...
-```
-
-<br>
-
-## Importando Angular Material nos componentes
-
-<br>
-
-- "nome-do-componente".component.ts:
-
-```
-import {MatButtonModule} from '@angular/material/button';
-import {MatCardModule} from '@angular/material/card';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatIconModule} from '@angular/material/icon';
-import {MatInputModule} from '@angular/material/input';
-import {MatMenuModule} from '@angular/material/menu';
-import {MatToolbarModule} from '@angular/material/toolbar'
-import {MatGridListModule} from '@angular/material/grid-list';
-
-@Component({
-  imports: [
-    MatButtonModule,
-    MatCardModule,
-    MatFormFieldModule,
-    MatIconModule,
-    MatInputModule,
-    MatMenuModule,
-    MatToolbarModule,
-    MatGridListModule
-  ],
-...
+@NgModule({
+  declarations: [
+    AppComponent, ...
 ```
 
 <br>
 
 https://www.youtube.com/watch?v=LcYroNQNyIA&list=WL&index=4
-20:00
 	
-
-
-
-
-
-
-
-
-
-
-
 <br>
 
 ## Aluno
